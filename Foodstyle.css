@@ -1,0 +1,126 @@
+body {
+    color: white;
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.container {
+    margin: 0px;
+    padding: 0px;
+    background: url('https://png.pngtree.com/thumb_back/fh260/20170803/pngtree-Food-Menu-Fare-Meal-background-photo-869492.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    color: black;
+    height: 300px;
+    opacity: 1;
+    /* border: 2px solid red; */
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    /* width: 20%; */
+}
+
+.left img {
+    width: 7vw;
+    height: 6vw;
+    filter: invert(100%);
+}
+
+.middle {
+    /* border: 2px solid red; */
+    display: block;
+    /* position: absolute; */
+    margin-left: 20%;
+}
+
+.right {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    width: 35%;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.navbar ul li a:hover {
+    color: #f4dac7;
+    text-decoration: underline;
+    border: 2px solid #f4dac7;
+    border-radius: 5px;
+}
+
+.textarea {
+    font-family: 'Playfair Display', serif;
+    border: none;
+    border-radius: 5px;
+    /* color: black; */
+    background-color: #f4dac7;
+    height: 23px;
+    width: 150px;
+    text-align: center;
+}
+
+.icon {
+    color: #f4dac7;
+    border: 2px solid #f4dac7;
+    padding: 5px;
+}
+
+.cities {
+    width: 70px;
+}
+
+.box {
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    color: black;
+    /* box-shadow: #f4dac7; */
+}
+
+.first {
+    /* border: 2px solid black; */
+    margin: 5px;
+    padding: 2px;
+    border-radius: 10px 10px 0px 10px;
+    display: inline-block;
+    width: 30%;
+    height: fit-content;
+    box-shadow: 7px 5px #f4dac7;
+}
+
+h3 {
+    text-align: center;
+}
+
+.image {
+    border-radius: 0px 10px 0px 10px;
+    margin-bottom: 0%;
+    display: inline-block;
+}
+
+ul {
+    display: inline-block;
+}
+
+.brand {
+    margin-top: 100px;
+    margin-left: 30%;
+
+}
